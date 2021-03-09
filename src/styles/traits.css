@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+.traits-below {
+    background-color:#000;
+    padding-top: 100px;
+}
+
+
+.image-begin {
+    text-align: center;
+    padding-top: 60px;
+    /* display: inline-block; */
+    /* width: 100%; */
+    /* height: 50%; */
+}
+.image-begin img {
+    height: 150px;
+    width: 150px;
+}
+
+.image-begin h3 {
+    font-size:2em;
+    color:white; 
+    font-family: 'Stick', sans-serif;
+}
+/* Increase Image With for bigger and clearer display on smaller screens */
+@media only screen and (max-width:750px) {
+     .image-begin {
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+
+
+
+
+.traits-details {
+    text-align: center;
+    padding-top: 50px;
+}
+.traits-details h5 {
+    color: #fff;
+    font-size: 1.8em;
+    font-family: 'Stick', sans-serif;
+}
+
+.traits-details p {
+
+    color: #fff;;
+}

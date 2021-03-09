@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+
+.head-text-over {
+    /* background-color:#fff; */
+    text-align: center;
+    margin-top: 20px;
+}
+
+.head-text-over h2 {
+    color: #fff;
+    font-size: 2em;
+}
+
+.head-text-over span {
+    font-size: 2.7em;
+    font-weight: lighter;
+    font-family: 'Stick', sans-serif;
+    transition: 0.5s;
+}
+
+.header-progress {
+    display: inline-block;
+    width: 250px;
+}
+
+/* Media less than 456 */
+
+@media only screen and (max-width:456px) {
+
+    .head-text-over span {
+        font-size: 1.8em;
+        font-weight: lighter;
+        font-family: 'Stick', sans-serif;
+        transition: 0.5s;
+    }
+
+
+}

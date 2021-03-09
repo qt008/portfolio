@@ -1,0 +1,8 @@
+.chip_am {
+    font-size: 0.8em!important;
+}
+@media only screen and (max-width:360px) {
+    .chip_am {
+        font-size: 0.38em!important;
+    }
+}

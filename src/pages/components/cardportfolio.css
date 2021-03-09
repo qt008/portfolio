@@ -1,0 +1,9 @@
+.MuiCardHeader-title {
+    color: #fff;
+    font-weight: bolder;
+    /* font-size:5em; */
+}
+
+.MuiCardHeader-subheader {
+    color:#fff;
+}
