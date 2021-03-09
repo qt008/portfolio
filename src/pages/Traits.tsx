@@ -1,34 +1,15 @@
 import React from "react"
-import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
-import Avatar from '@material-ui/core/Avatar';
 import Grid from '@material-ui/core/Grid';
 import  '../styles/traits.css'
-import scale from '../styles/images/balance.png'
 import programmer from '../styles/images/progr.png'
-import { Container, Hidden } from "@material-ui/core";
-import Loader from "./components/Loader";
+import { Container } from "@material-ui/core";
 import Skill from "./components/Skill";
-import randomColor from "randomcolor";
-import Advertise from "./Advertise";
 
-const useStyles = makeStyles((theme: Theme) =>
-  createStyles({
-    root: {
-      flexGrow: 1,
-    },
-    paper: {
-      padding: theme.spacing(2),
-      textAlign: 'center',
-      color: theme.palette.text.secondary,
-    },
-  }),
-);
 
 
 
 
 const Traits:React.FC = () => {
-    const classes = useStyles();
     return (
         <div className="traits-below">
             <Container >

@@ -1,9 +1,7 @@
 import { Container, Grid } from '@material-ui/core';
 import React from 'react';
 import '../styles/portfolio.css'
-import Advertise from './Advertise';
 import CardPortfolio from "./components/CardPortfolio";
-import DrawerImage from './DrawerImage';
 
 
 

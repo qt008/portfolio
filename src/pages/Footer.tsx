@@ -1,6 +1,4 @@
-import { Height } from '@material-ui/icons'
 import React from 'react'
-import Email from "../styles/images/email.gif"
 
 
 

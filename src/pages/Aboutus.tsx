@@ -1,5 +1,4 @@
 import React from "react"
-import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Avatar from '@material-ui/core/Avatar';
 import Grid from '@material-ui/core/Grid';
 import  '../styles/about.css'
@@ -8,24 +7,10 @@ import codeTyping from '../styles/images/code-typing2.gif'
 import { Container } from "@material-ui/core";
 import Traits from "./Traits";
 
-const useStyles = makeStyles((theme: Theme) =>
-  createStyles({
-    root: {
-      flexGrow: 1,
-    },
-    paper: {
-      padding: theme.spacing(2),
-      textAlign: 'center',
-      color: theme.palette.text.secondary,
-    },
-  }),
-);
-
 
 
 
 const AboutUs:React.FC = () => {
-    const classes = useStyles();
     return (
         <div className="about-below">
             <Container >

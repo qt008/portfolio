@@ -5,9 +5,6 @@ import Drawer from '@material-ui/core/Drawer';
 import Button from '@material-ui/core/Button';
 import VisibilityIcon from '@material-ui/icons/Visibility';
 import { SRLWrapper } from "simple-react-lightbox";
-
-import BSG from '../styles/images/portfolio/bipprlmob.png'
-import BSG2 from '../styles/images/portfolio/hotra11.jpg'
 import { IconButton } from '@material-ui/core';
 
 const useStyles = makeStyles({

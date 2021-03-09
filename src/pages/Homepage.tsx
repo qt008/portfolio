@@ -1,12 +1,9 @@
 import React from "react"
-import { CardMedia } from "@material-ui/core"
-import { makeStyles, Theme, createStyles } from '@material-ui/core/styles';
 import '../styles/homepage.css'
 import developer2 from '../styles/images/developer2.png'
 import programmer from '../styles/images/programmer.png'
 import Nerdy from "./components/Nerdy";
-import AboutUs from "./Aboutus";
-import { Fade, Slide, Zoom } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
 
 
 const Hompage:React.FC = () => {
@@ -16,7 +13,7 @@ const Hompage:React.FC = () => {
         <div className="home-header-content">
           <div className="home-header-content-begin">
             <Slide direction="down" delay={500} triggerOnce>
-              <img height="100" width="100" src={programmer} />
+              <img height="100" width="100" alt='developer' src={programmer} />
             </Slide>
             <Nerdy />
             <Slide direction="up" delay={500} triggerOnce>
