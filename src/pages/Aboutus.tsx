@@ -21,8 +21,8 @@ const AboutUs:React.FC = () => {
                             <h5>who am i? </h5>
                             <Avatar alt="Who are you?" style={{textAlign:'center',display:'inline-block'}} src={shocked} />
                             <p>
-                                A Full Stack and Object Oriented Web Developer. I have great experience developing LAMP stack powered web applications.
-                                I am conversant with both Back End and Front End scripting languages including HTML, CSS, PHP, PYTHON and 
+                                A Full Stack and Object Oriented Web Developer with great experience developing LAMP stack powered web applications.
+                                I am conversant with both Back End and Front End scripting languages including HTML, CSS, PHP, PYTHON, 
                                 Javascript and JS frameworks especially React and jQuery. YES!! i love exploring new creative ideas and i really enjoy learning new programming languages.  
                             </p>
                         </div>
