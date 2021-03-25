@@ -88,7 +88,7 @@ const Portfolio:React.FC = () =>  {
                       date="February 01, 2020"
                       images={require('../styles/images/portfolio/hotralapmob.png')}
                       image_list={hotra}
-                      links={{'admin':'https://3.16.45.71/','client':'https://3.16.45.71/'}}
+                      links={{'admin':'https://3.16.45.71/hotra/ad/','client':'https://3.16.45.71/hotra'}}
                   />
                   </div>
                   
@@ -105,7 +105,7 @@ const Portfolio:React.FC = () =>  {
                       date="May 01, 2020"
                       images={require('../styles/images/portfolio/bipprlmob.png')} 
                       image_list={jomazonn}
-                      links={{'admin':'https://3.16.45.71/','client':'https://3.16.45.71/'}}
+                      links={{'admin':'https://3.16.45.71/jomazonn/ad/','client':'https://3.16.45.71/jomazonn'}}
                   />
                   </div>
                   
@@ -121,7 +121,7 @@ const Portfolio:React.FC = () =>  {
                       date="June 01, 2020"
                       images={require('../styles/images/portfolio/ogm-fmon.png')} 
                       image_list={ogm}
-                      links={{'admin':'https://3.16.45.71/','client':'https://3.16.45.71/'}}
+                      links={{'admin':'https://3.16.45.71/ogm-framework/admin/','client':'https://3.16.45.71/ogm-framework/'}}
                   />
                   </div>
                   
@@ -137,7 +137,7 @@ const Portfolio:React.FC = () =>  {
                       date="June 01, 2020"
                       images={require('../styles/images/portfolio/esnnlmob.png')} 
                       image_list={esn_news}
-                      links={{'admin':'https://3.16.45.71/','client':'https://3.16.45.71/'}}
+                      links={{'admin':'https://3.16.45.71/escon/ad/','client':'https://3.16.45.71/escon/articles/'}}
                   />
                   </div>
                   

@@ -95,7 +95,6 @@ const CardPortfolio:React.FC<{
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
           })}
-          // style={{backgroundColor:'white', borderRadius:'50%',padding:'0px', color:"black"}}
           onClick={handleExpandClick}
           aria-expanded={expanded}
           aria-label="show more"
@@ -149,7 +148,7 @@ const CardPortfolio:React.FC<{
           }
           {
             props.links.client &&
-            <a target="__blank" href={props.links.admin}> 
+            <a target="__blank" href={props.links.client}> 
               <Chip
                 style={{fontStyle:'italic',fontWeight:'lighter',margin:'10px'}}
                 icon={<Code />}
@@ -164,7 +163,6 @@ const CardPortfolio:React.FC<{
 
         </CardContent>
       </Collapse>
-      {/* { expanded && <DrawerImage draw={images} /> } */}
       
     </Card>
 
